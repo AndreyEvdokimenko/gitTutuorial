@@ -1,0 +1,89 @@
+body{
+	background-image: url("translucent-image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.title{
+	color: black;
+	text-align: center;
+	font-size: 40px;
+font-weight: bold;
+margin-top: 10px;
+}
+.text{
+	font-size: 20px;
+	max-width: 2000px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.menu{
+	background: transparent;/*blue*/;
+	width: 650px;
+	height: 634px;
+	border-radius: 30px;
+	margin-top: 200px;
+}
+.question{
+	color: black;
+	font-size: 27px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+.answer{
+	font-size: 25px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.answer-variant{
+	margin-top: 15px;
+		    color: black;
+    background: transparent; 
+    padding: 15px;  
+    transition: 0s linear; 
+}
+.answer-variant::marker{
+	color: transparent;
+}
+.answer-variant:hover{
+	    color: #fff; 
+    background: #f66d52;
+}
+.result{
+	font-size: 25px;
+	margin-top: 0px;
+	max-width: 650px;
+}
+.picture{
+	width: 343px;
+	height: 510px;
+	display: block;
+	margin: 0 auto;
+}
+.theend{
+margin-top: 400px;
+}
+.end{
+	font-size: 24px;
+    word-wrap: break-word;
+    word-break: break-word;
+    display: flex;
+    justify-content: center;
+}
+span{
+	font-size: 24px;;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
